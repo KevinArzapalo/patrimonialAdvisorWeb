@@ -521,6 +521,14 @@ nav ul li {
     border-radius: 30px 15px;
 }
 
+.imagenFondo{
+    background-image: url("../assets/tipoServicios.png"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .tarjeta{
     border-radius: 10px;
     width: 30%;
