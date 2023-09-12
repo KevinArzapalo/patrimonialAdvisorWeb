@@ -30,6 +30,10 @@ body {
     display: none;
 }
 
+.Apartado{
+    color: #FD2D73;
+}
+
 .contacto {
     padding: 5px 0px 5px 0px;
     display: flex;
@@ -275,7 +279,7 @@ hr {
 
 .foto {
     transition: all .5s;
-    width: 75%;
+    width: 28%;
 }
 
 footer {
@@ -362,7 +366,7 @@ nav ul li {
     flex-direction: row;
     justify-content: space-around;
     padding: 5px 10px;
-    border-left: 2px #fc6c25 solid;
+    border-left: 2px #FD2D73 solid;
 }
 
 #infoContacto div {
@@ -371,11 +375,13 @@ nav ul li {
 
 #infoContacto div i {
     padding-left: 10px;
-    color: #fc6c25 ;
+    font-weight: 500px;
+    color: #471A76 ;
 }
 
 #infoContacto div p {
     padding-left: 10px;
+    color: white;
 }
 
 #boton {
@@ -427,7 +433,7 @@ nav ul li {
 }
 
 .itemA div h3{
-    color: #fc6c25;
+    color: #471A76;
 }
 
 .itemA div h6{
