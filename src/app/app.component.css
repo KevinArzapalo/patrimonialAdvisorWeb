@@ -619,33 +619,29 @@ nav ul li {
         width: 50% !important;
     }
 
-    #headerOculto{
-        display: flex;
+    #contenedorLogo{
+        display: none !important;
+    }
+
+    #contenedorLogoOculto{
+        display: flex !important;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         padding: 20px;
+        width: 100%;
     }
 
-    #logoGNP{
-        display: none !important;
-    }
-
-    #logoVivirMejor{
-        display: none !important;
-    }
-
-    #logoVivirMejorOculto{
-        width: 35%;
-    }
-
-    #logoGNPOculto{
-        width: 55%;
-        justify-content: flex-end;
+    #contenedorLogoOculto #logoHiNi{
+        justify-content: center !important;
     }
 
     #contenedorNavegador{
         display: flex;
-        justify-content: center;
+        justify-content: center !important;
+    }
+
+    nav ul{
+        justify-content: center !important;
     }
 
     nav ul li {
@@ -654,7 +650,7 @@ nav ul li {
 
     nav ul li a{
         border-left: 0;
-        border-bottom: 2px #fc6c25 solid;
+        border-bottom: 2px #FD2D73 solid;
     }
 
     #banner h5{
