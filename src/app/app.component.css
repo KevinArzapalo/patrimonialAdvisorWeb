@@ -584,11 +584,20 @@ nav ul li {
 @media screen and (max-width: 800px) {
 
     #form input {
-        width: 80%;
+        width: 100%;
+    }
+
+    #form div{
+        width: 50%;
+        flex-direction: column !important;
     }
 
     #form textarea {
-        width: 80%;
+        width: 50% !important;
+    }
+
+    #button{
+        width: 50% !important;
     }
 
     .itemA{
