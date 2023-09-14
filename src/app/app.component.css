@@ -588,16 +588,18 @@ nav ul li {
     }
 
     #form div{
-        width: 50%;
+        width: 100%;
         flex-direction: column !important;
     }
 
     #form textarea {
-        width: 50% !important;
+        width: 100% !important;
+        margin-left: 25px !important;
     }
 
     #button{
-        width: 50% !important;
+        width: 100% !important;
+        margin-left: 25px !important;
     }
 
     .itemA{
