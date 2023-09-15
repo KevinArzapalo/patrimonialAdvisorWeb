@@ -277,11 +277,6 @@ hr {
     align-items: center;
 }*/
 
-.foto {
-    transition: all .5s;
-    width: 20%;
-}
-
 footer {
     display: flex;
     flex-direction: row;
@@ -326,49 +321,6 @@ footer article iframe {
     width: 55%;
 }
 
-.menuBar a span:first-child {
-    display: inline-block;
-    padding: 1px 10px;
-}
-
-.menuBar a {
-    display: block;
-    position: relative;
-    overflow: hidden;
-}
-
-    .menuBar a span:last-child {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transform: translateY(100%);
-    }
-
-    .menuBar a span {
-        transition: transform 0.2s ease-out;
-    }
-
-    .menuBar a:hover span:first-child {
-        transform: translateY(-100%);
-    }
-
-    .menuBar a:hover span:last-child {
-        transform: none;
-    }
-
-nav ul li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0px 10px;
-    border-left: 2px #FD2D73 solid;
-}
-
 #infoContacto div {
     display: flex;
 }
@@ -390,12 +342,6 @@ nav ul li {
     background-color: #FFA6EF;
     border: 1px #FFA6EF solid;
     transition: all .3s;
-}
-
-.colorLinks {
-    color: #5e5d5d;
-    font-family: "Open Sans",sans-serif;
-    font-weight: 600;
 }
 
 .datosContacto input{
@@ -628,40 +574,6 @@ nav ul li {
 
     #contenedorImagenPerfil{
         width: 50% !important;
-    }
-
-    #contenedorLogo{
-        display: none !important;
-    }
-
-    #contenedorLogoOculto{
-        display: flex !important;
-        flex-direction: row;
-        justify-content: center;
-        padding: 20px;
-        width: 100%;
-    }
-
-    #contenedorLogoOculto #logoHiNi{
-        justify-content: center !important;
-    }
-
-    #contenedorNavegador{
-        display: flex;
-        justify-content: center !important;
-    }
-
-    nav ul{
-        justify-content: center !important;
-    }
-
-    nav ul li {
-        border-left: 0;
-    }
-
-    nav ul li a{
-        border-left: 0;
-        border-bottom: 2px #FD2D73 solid;
     }
 
     #banner h5{

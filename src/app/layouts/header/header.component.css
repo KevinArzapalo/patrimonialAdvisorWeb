@@ -1,0 +1,39 @@
+.foto {
+    transition: all .5s;
+    width: 20%;
+}
+
+#contenedorNavegador{
+    display: flex;
+}
+
+@media screen and (max-width: 800px){
+    .foto {
+        width: 30%;
+    }
+
+    #contenedorNavegador{
+        display: flex;
+        justify-content: center !important;
+    }
+    
+    #contenedorLogo{
+        display: none !important;
+    }
+
+    #contenedorLogoOculto{
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+    }
+
+    #contenedorLogoOculto #logoHiNi{
+        justify-content: center !important;
+    }
+
+    #contenedorLogoOcultoDiv{
+        justify-content: center !important;
+    }
+}
