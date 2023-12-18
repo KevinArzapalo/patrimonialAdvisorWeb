@@ -1,0 +1,214 @@
+<div class="col-12">
+    <main role="main" style="display: flex; flex-wrap: wrap;">
+        <section id="banner" class="col-12 seccion">
+                <div class="col-12" style="text-align: center;">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div>
+                                <img src="assets/financial_freedoom.png" class="d-block w-100" alt="..." style="overflow: hidden; height: 100%;">
+                                <div class="carousel-caption d-md-block cartel">
+                                    <h5 class="letraCursiva">La planificación a largo plazo no es pensar en decisiones futuras, sino en el futuro de las decisiones presentes. (P. Brucker)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="assets/family.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-md-block" style="top: 0px;">
+                                    <h5 style="color: #FD2D73;">Protege a los que más quieres</h5>
+                                    <p style="color: black;" class="letraCursiva">Camina seguro hacia el futuro</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="assets/SGMM.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-md-block cartel">
+                                    <h5 style=" color: #FD2D73;">Cuida y asegura tu bienestar</h5>
+                                    <p class="letraCursiva">Preparate hoy para las incertidumbres del mañana.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="trayectoria" class="col-12 seccionCentral">
+            <article class="col-6">
+                <div id="contenedorImagenPerfil" style="width: 40%; margin: 10px;">
+                    <img src="assets/logo_HiNi.png" style="width: 100%"/>
+                </div>
+                <h3 style="margin: 20px; text-align: center;"> Lic. Carolina Pino | Asesora Patrimonial </h3>
+            </article>
+
+            <article id="articuloTrayectoria" class="col-6">
+                <h2 class="Apartado">Conoce mi trayectoria</h2>
+                <p style="margin-top: 40px; text-align: justify; line-height: 2;">Soy psicóloga de profesión, pero mi inquietud por cuidar de los míos me llevo al ramo asegurador. Soy experta en el tema de asesoria patrimonial y en conjunto encontraremos las mejores herramientas que te permitan estar protegido y preparado para el futuro. </p>
+            </article>
+        </section>
+
+        <section id="tipoServicios" style="margin-top: 0px !important;" class="col-12 seccionCentral imagenFondo">
+            <div>
+                <h1 class="Apartado">Servicios</h1>
+                <p>Tenemos un plan pensado y diseñado para protegerte a ti y tus intereses.</p>
+            </div>
+        </section>
+
+        <section id="servicios" class="col-12 seccionCentral">
+            <div class="col-12">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div uib-carousel interval="5000" class="carousel-inner" style="display: flex; justify-content: flex-start;">
+                        <div uib-slide class="carousel-item active" style="text-align: center;">
+                            <div class="itemA">
+                                <div>
+                                    <img src="assets/Profesional.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="itemContenedor">
+                                    <h3>SEGURO PROFESIONAL</h3>
+                                    <h6>¡Prepara y asegura el futuro educativo de los tuyos desde hoy!</h6>
+                                    <p>Dale la oportunidad a los que más quieres de elegir las mejores instituciones educativas del estado sin tener que preocuparte por los pagos de colegiaturas e inscripciones.</p>
+                                    <button [routerLink]="['/seguro-profesional']" class="VerMas">Ver Más</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="text-align: center;">
+                            <div class="itemA">
+                                <div>
+                                    <img src="assets/seguroDeVida.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="itemContenedor">
+                                    <h3>SEGURO DE VIDA</h3>
+                                    <h6>¡Manten protegida a tu familia sin importar lo que pase!</h6>
+                                    <p>Con nuestros planes ajustados a tus necesidades, puedes tener la tranquilidad de que tu familia estará siempre protegida aunque no estes presente.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="text-align: center;">
+                            <div class="itemA">
+                                <div>
+                                    <img src="assets/SGMM_Servicio.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="itemContenedor">
+                                    <h3>SEGURO DE GASTOS MÉDICOS MAYORES</h3>
+                                    <h6>¡La salud es lo más importante, ahora y siempre!</h6>
+                                    <p>Tenemos excelentes opciones para protegerse contra los gastos médicos imprevistos. Planes adaptados a tus necesidades con una amplia red de los mejores hospitales.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="text-align: center;">
+                            <div class="itemA">
+                                <div>
+                                    <img src="assets/ahorro.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="itemContenedor">
+                                    <h3>PLANES DE AHORRO</h3>
+                                    <h6>¡Alcanza más facilmente tus metas!</h6>
+                                    <p>Pongamos a trabajar tus ahorros para generar rendimientos que te permitan alcanzar en menor tiempo todos los objetivos que te propongas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="text-align: center;">
+                            <div class="itemA">
+                                <div>
+                                    <img src="assets/retiro.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="itemContenedor">
+                                    <h3>RETIRO</h3>
+                                    <h6>Despreocupate y goza de un retiro digno</h6>
+                                    <p>Asegura tu estilo de vida y disfruta de un retiro digno con uno de nuestros planes personales de retiro adaptado a tus necesidades.</p>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span style="background-color: black;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span style="background-color: black;" class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="col-12 seccionCentral">
+            <div style="text-align: center;">
+                <h1 class="Apartado">Beneficios</h1>
+                <p>Elegir el respaldo de una aseguradora contiene grandes beneficios</p>
+            </div>
+            <div class="contenedorBeneficios">
+                <div class="tarjeta">
+                    <img src="assets/Fondo_info_HiNi.jpg">
+                    <div class="contenedorTexto">
+                        <h5>No quiebra</h5>
+                    </div>
+                    <div class="contenedorTextoOculto">
+                        <p>Una parte de las primas de una aseguradora se guarda en un fondo denominado "Reservas Técnicas" y se utilizan para garantizar ante la ley que contamos con los recursos y respaldos para hacer frente hasta el doble de la totalidad de seguros de todos nuestros clientes. </p>
+                    </div>
+                </div> 
+                <div class="tarjeta">
+                    <img src="assets/Fondo_info_HiNi.jpg">
+                    <div class="contenedorTexto">
+                        <h5>Reasegurada</h5>
+                    </div>
+                    <div class="contenedorTextoOculto">
+                        <p>Utilizamos distintas técnicas de inversión y adquisión de seguros para que tu dinero este siempre disponible y protegido.</p>
+                    </div>
+                </div> 
+                <div class="tarjeta">
+                    <img src="assets/Fondo_info_HiNi.jpg">
+                    <div class="contenedorTexto">
+                        <h5>Inembargable</h5>
+                    </div>
+                    <div class="contenedorTextoOculto">
+                        <p>Durante la vigencia del contrato, un seguro es inembargable debido a que el dinero proveniente de los clientes es utilizado para cubrir las necesidades de sus homologos en nuestra red de clientes.</p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section id="contacto" class="col-12 seccion" style="display: flex; justify-content: flex-end !important; background-image: url('assets/agendarCita.jpg'); background-repeat: no-repeat; background-size: cover;">
+            <article class="col-12 col-xl-6" style="display: flex; flex-direction: column; padding: 30px;">
+                <div style="text-align: center;">
+                    <h2 style="color: #FD2D73; font-family:  Open Sans,sans-serif; font-weight: 600;">
+                        Agenda tu cita
+                    </h2>
+                    <h1 style="width: 100%; text-align: center; font-size: 20px; color: #FCACBB;">
+                        ¡Platiquemos y planifiquemos tu futuro!
+                    </h1>
+                </div>
+
+                <form id="form" class="datosContacto" style="display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;">
+                    <div style="display: flex; flex-direction: row;">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre(s)">
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellidos">
+                    </div>    
+                    <div style="display: flex; flex-direction: row;">
+                        <input type="number" name="telefono" id="telefono" placeholder="Numero de Telefono">
+                        <input type="email" name="correo" id="correo" placeholder="Correo Electrónico">
+                    </div>                
+                    <textarea style="width: 66%;" name="comentarios" id="comentarios" rows="8" cols="20" placeholder="Información a solicitar"></textarea>
+                    <button type="submit" class="btn btn-success button">
+                        <span id="button">Solicitar Información</span>
+                    </button>
+                </form>
+            </article>
+        </section>
+    </main>
+</div>
