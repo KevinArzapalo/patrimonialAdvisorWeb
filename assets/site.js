@@ -2,20 +2,20 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-const btn = document.getElementById('button');
+const btn = document.querySelector('#button');
 
 document.getElementById('form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
-   btn.value = 'Enviando...';
+   btn.innerHTML = 'Enviando...';
 
    const serviceID = 'default_service';
    const templateID = 'template_c42lhu3';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Solicitar información';
+      btn.innerHTML = 'Solicitar información';
       Swal.fire(
         'Solicitud enviada con éxito',
         'Estaré en contacto contigo muy pronto.',
