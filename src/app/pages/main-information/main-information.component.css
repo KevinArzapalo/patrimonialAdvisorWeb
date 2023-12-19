@@ -592,8 +592,12 @@ hr {
     }
 
     #button{
+        font-size: 13px;
         width: 100% !important;
-        margin-left: 25px !important;
+    }
+
+    .button{
+        width: 75%;
     }
 
     .itemA{
