@@ -418,6 +418,7 @@ hr {
     background-color: rgba(0, 0, 0, .6);
     width: 50%;
     height: 50%;
+    text-align: center;
 }
 
 .apartadoServicios p{
@@ -524,6 +525,7 @@ hr {
     padding: 5px;
     border-radius: 5px;
     border: 1px #E3D2F6 solid;
+    outline: none;
 }
 
 .datosContacto textarea {
@@ -532,6 +534,7 @@ hr {
     padding: 5px;
     border-radius: 5px;
     border: 1px #E3D2F6 solid;
+    outline: none;
 }
 
 .button{
@@ -618,6 +621,10 @@ hr {
 
     #trayectoria article p{
         width: 80%;
+    }
+
+    .apartadoServicios p{
+        font-size: 14px;
     }
 
     .itemContenedor{

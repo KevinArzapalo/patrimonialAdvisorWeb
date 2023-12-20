@@ -20,9 +20,9 @@
                         <div class="carousel-item">
                             <div>
                                 <img src="assets/family.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-md-block" style="top: 0px;">
+                                <div class="carousel-caption d-md-block cartel">
                                     <h5 style="color: #FD2D73;">Protege a los que más quieres</h5>
-                                    <p style="color: black;" class="letraCursiva">Camina seguro hacia el futuro</p>
+                                    <p class="letraCursiva">Camina seguro hacia el futuro</p>
                                 </div>
                             </div>
                         </div>
@@ -196,14 +196,14 @@
 
                 <form id="form" class="datosContacto" style="display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;">
                     <div style="display: flex; flex-direction: row;">
-                        <input type="text" name="nombre" id="nombre" placeholder="Nombre(s)">
-                        <input type="text" name="apellido" id="apellido" placeholder="Apellidos">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre(s)" required>
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellidos" required>
                     </div>    
                     <div style="display: flex; flex-direction: row;">
-                        <input type="number" name="telefono" id="telefono" placeholder="Numero de Telefono">
-                        <input type="email" name="correo" id="correo" placeholder="Correo Electrónico">
+                        <input type="number" name="telefono" id="telefono" placeholder="Numero de Telefono" required>
+                        <input type="email" name="correo" id="correo" placeholder="Correo Electrónico" required>
                     </div>                
-                    <textarea style="width: 66%;" name="comentarios" id="comentarios" rows="8" cols="20" placeholder="Información a solicitar"></textarea>
+                    <textarea style="width: 66%;" name="comentarios" id="comentarios" rows="8" cols="20" placeholder="Información a solicitar" required></textarea>
                     <button type="submit" class="btn btn-success button">
                         <span id="button">Solicitar Información</span>
                     </button>
