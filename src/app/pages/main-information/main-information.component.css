@@ -395,7 +395,7 @@ hr {
 }
 
 .imagenFondo{
-    background-image: url("/assets/tipoServicios3.png"); 
+    background-image: url("/assets/tipoServicios3.webp"); 
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
